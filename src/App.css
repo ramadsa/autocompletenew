@@ -1,0 +1,128 @@
+.listMainBody{
+  background-color: #ddd;
+}
+.listMainBody h3{
+ padding: 20px 0px 0px 25px;
+}
+.listMain{
+  background-color: #ddd;
+  padding: 20px;
+  display: flex;
+}
+.alpha-border-haz {
+  display: block;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(164, 156, 156), rgba(0, 0, 0, 0));
+  width: 66%;
+  margin: 10px auto;
+}
+.listProductLeftinner h4{
+  padding: 19px 0px 0px 20px;
+}
+.listProduct div img{
+width:100%
+}
+.listProduct .listProductBox{
+
+  border-radius: 4px;
+  background: #fff;
+  margin: 20px;
+}
+.listProductLeft{
+ 
+  width: 25%;
+  
+}
+.listProductLeftinner{
+  border-radius: 10px;
+  margin-right: 20px;
+  background: #fff;
+  padding-bottom: 30px;
+}
+.listProductRight{
+  width: 75%;
+}
+.listProductBox{
+  width:  25%;
+  display: inline-block;
+}
+.listProductBoxinner {
+  background: #fff;
+  padding: 13px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.listProductBoxinner img{
+  width: 100%;
+  background: #dddddd;
+
+}
+.listcont h5{
+  color: #18264e;
+  padding: 1px 0;
+  font-size: 17px;
+}
+.listcontBold{
+  font-weight: 600;
+}
+.lanchYear h5{
+  font-size: 17px;
+}
+.lanchYear{
+  text-align: center;
+}
+.lanchYear button{   
+    width: 33%;
+    border: 0px;
+    background: #427a34b8;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    /* margin: auto; */
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.footer{
+  position: sticky;
+    bottom: 0;
+    text-align: center;
+    background: #fff;
+    border-top: 2px solid #ddd;
+    padding: 5px;
+}
+.noDataerror{
+  text-align: center;
+  padding: 26px;
+  background: #fff;
+  margin-top: 26px;
+  font-size: 19px;
+}
+.selected {
+  color: white;
+  background: #134e04 !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .listProductBox {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .listProductLeftinner{
+    padding: 5px;
+  }
+ }
+
+
+ input[type='text'], input[type='number'], input[type='email'] {
+  border: 1px solid #dedede;
+  border-radius: 2px;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  width: 83%;
+  margin: auto;
+}
